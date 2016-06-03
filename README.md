@@ -6,4 +6,4 @@ LEFT/RIGHT to rotate.
 
 UP/DOWN to zoom/scale
 
-Play around with fgcolor and bgcolor and different sized msdf letters!
+Play around with fgcolor,bgcolor and different sized msdf letters!
