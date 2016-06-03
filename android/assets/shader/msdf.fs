@@ -15,7 +15,7 @@ float median(float r, float g, float b) {
 
 
 void main() {
-    vec3 sam = texture(u_texture, v_texCoord).rgb;
+    vec3 sam = texture2D(u_texture, v_texCoord).rgb;
     float sigDist = median(sam.r, sam.g, sam.b) - 0.5;
     float opacity = clamp(sigDist / fwidth(sigDist) + 0.5, 0.0, 1.0);
 
